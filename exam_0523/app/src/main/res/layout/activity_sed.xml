@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_white"
+    tools:context=".SedActivity">
+
+
+    <ImageView
+        android:id="@+id/titlepic"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/jz_title" />
+
+    <TextView
+        android:id="@+id/ShowTV"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlepic"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="120dp"
+        android:text="结果"
+        android:gravity="center"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/ShowStrTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ShowTV"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="120dp"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+</RelativeLayout>
