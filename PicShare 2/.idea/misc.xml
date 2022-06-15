@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.31574074074074077" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.5796875" />
+        <entry key="app/src/main/res/drawable/round_button.xml" value="0.36254071661237786" />
+        <entry key="app/src/main/res/drawable/round_button_inactive.xml" value="0.13194444444444445" />
+        <entry key="app/src/main/res/drawable/shapr_search_box.xml" value="0.25763888888888886" />
+        <entry key="app/src/main/res/layout/WelcomePage.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.24146174863387979" />
+        <entry key="app/src/main/res/layout/activity_my_message.xml" value="0.13122171945701358" />
+        <entry key="app/src/main/res/layout/fragment_cartoon.xml" value="0.35592105263157897" />
+        <entry key="app/src/main/res/layout/fragment_inset.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_inset_type.xml" value="0.30020491803278687" />
+        <entry key="app/src/main/res/layout/fragment_novel.xml" value="0.35592105263157897" />
+        <entry key="app/src/main/res/layout/fragment_personal.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/loginpage.xml" value="0.29078947368421054" />
+        <entry key="app/src/main/res/layout/my_msg_item.xml" value="0.18442622950819673" />
+        <entry key="app/src/main/res/layout/signuppage.xml" value="0.29078947368421054" />
+        <entry key="app/src/main/res/layout/welcomepage.xml" value="0.33" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.5796875" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3536458333333333" />
+        <entry key="app/src/main/res/xml/network_security_config.xml" value="0.17485455720749837" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

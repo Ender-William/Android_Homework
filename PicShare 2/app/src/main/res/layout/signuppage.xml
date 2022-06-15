@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkShow"
+    tools:context=".activity.activity.WelcomPageActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <Button
+        android:id="@+id/SignUpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/zh_blod"
+        android:shadowColor="@color/white"
+        android:shadowRadius="@android:integer/config_shortAnimTime"
+        android:text="注册"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LoginMainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/zh_blod"
+        android:text="@string/signup_main_title"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/InviteCodeET"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_above="@+id/SignUpBtn"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/blod"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:theme="@style/MyEditText" />
+
+    <TextView
+        android:id="@+id/InviteCodeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/InviteCodeET"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/zh_weibei"
+        android:text="邀请码"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/EmailET"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_above="@+id/InviteCodeTV"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/blod"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:theme="@style/MyEditText" />
+
+    <TextView
+        android:id="@+id/EmailTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EmailET"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+
+        android:fontFamily="@font/zh_weibei"
+        android:text="电子邮箱地址"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/RePasswdET"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_above="@+id/EmailTV"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/blod"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:theme="@style/MyEditText" />
+
+    <TextView
+        android:id="@+id/RePasswdTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/RePasswdET"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/zh_weibei"
+        android:text="再次输入密码"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/PasswdET"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_above="@+id/RePasswdTV"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/blod"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:theme="@style/MyEditText" />
+
+    <TextView
+        android:id="@+id/PasswdTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/PasswdET"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/zh_weibei"
+        android:text="密码"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/UserNameET"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_above="@+id/PasswdTV"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/blod"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:theme="@style/MyEditText" />
+
+    <TextView
+        android:id="@+id/UserNameTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/UserNameET"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/zh_weibei"
+        android:text="用户名"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</RelativeLayout>

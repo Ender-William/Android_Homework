@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkShow"
+    android:orientation="vertical"
+    tools:context=".activity.fragment.PersonalFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_100dp"
+        android:textColor="@color/Lightwhite"
+        android:text="personal"
+        android:textSize="@dimen/dimen_30sp" />
+
+    <Button
+        android:id="@+id/clearspBtn"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="@dimen/dimen_200dp"
+        android:textSize="@dimen/dimen_30sp"
+        android:text="Clear SP" />
+    <Button
+        android:id="@+id/PersonalMessage"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="@dimen/dimen_200dp"
+        android:textSize="@dimen/dimen_30sp"
+        android:text="Message" />
+
+
+</LinearLayout>

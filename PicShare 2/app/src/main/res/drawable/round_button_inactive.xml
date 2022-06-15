@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <stroke
+        android:color="@color/Main_Theme"
+        android:width="3dip"/>
+    <solid android:color="@color/Main_Theme"/>
+    <size android:width="80dp" android:height="80dp"/>
+</shape>
+
+<!--    shape: Defines shape of view. It can be rectangle, oval, line and ring. In this case we are using oval shape to make the button circular.-->
+
+<!--    shape：定义视图的形状。 它可以是矩形，椭圆形，线形和环形。 在这种情况下，我们使用椭圆形使按钮变为圆形。-->
+
+<!--    stroke: Defines boundary of shape.-->
+
+<!--    笔触：定义形状的边界。-->
+
+<!--    solid: Defines background color of shape.-->
+
+<!--    实体：定义形状的背景色。-->
+
+<!--    size: Defines size of shape.-->
+
+<!--    size：定义形状的大小。-->
+
+<!--    Now set this xml as background of the button.-->

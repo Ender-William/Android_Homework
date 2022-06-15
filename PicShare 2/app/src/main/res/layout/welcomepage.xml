@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkShow"
+    tools:context=".activity.activity.WelcomPageActivity"
+    tools:ignore="MissingDefaultResource">
+
+
+    <ImageView
+        android:id="@+id/LogoIcon"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/dimen_20dp"
+        android:layout_marginTop="@dimen/dimen_100dp"
+        android:layout_marginEnd="@dimen/dimen_20dp"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_80dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/dimen_100dp">
+
+        <Button
+            android:id="@+id/NextPageBtn"
+            android:layout_width="@dimen/dimen_80dp"
+            android:layout_height="@dimen/dimen_80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button"
+            android:textColor="@color/Lightwhite"
+            android:textSize="@dimen/dimen_30sp"
+            android:text=">" />
+    </LinearLayout>
+
+
+</RelativeLayout>

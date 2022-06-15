@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkShow"
+    tools:context=".activity.activity.WelcomPageActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <Button
+        android:id="@+id/LoginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_above="@+id/RememberPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/zh_blod"
+        android:shadowColor="@color/white"
+        android:text="登录"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/multi_function"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/TransSignUpBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="65dp"
+            android:fontFamily="@font/zh_blod"
+            android:shadowColor="@color/white"
+            android:text="注册"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/QQ"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/blod"
+            android:scaleType="centerInside"
+            android:shadowColor="@color/white"
+            android:src="@drawable/qq"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="15sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <ImageButton
+            android:id="@+id/Wechat"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/blod"
+            android:shadowColor="@color/white"
+            android:src="@drawable/wechat"
+            android:scaleType="centerInside"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/LoginMainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/zh_blod"
+        android:text="@string/loginpage_main_title"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/login_mines_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/multi_function"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/blod"
+        android:text="@string/loginpage_page_mines_title"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/LoginPasswdET"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_above="@+id/LoginBtn"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="27dp"
+        android:fontFamily="@font/blod"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:theme="@style/MyEditText" />
+
+    <TextView
+        android:id="@+id/LoginPasswdTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LoginPasswdET"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/zh_weibei"
+        android:text="密码"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/LoginUserNameET"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_above="@+id/LoginPasswdTV"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/blod"
+        android:inputType="textNoSuggestions"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:theme="@style/MyEditText" />
+
+    <TextView
+        android:id="@+id/LoginUserNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LoginUserNameET"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/zh_weibei"
+        android:text="用户名"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/RememberPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_mines_title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:buttonTint="@color/white"
+        android:checked="false"
+        android:fontFamily="@font/zh_weibei"
+        android:text="记住密码"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
